@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="owlcarousel/animate.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <title>fotos</title>
+</head>
+
+<body style="margin:0px;padding:0px;background:#000">
+    <div class="owl-carousel" style="width:100%; height: 100%;">
+        <div style="background:black">
+            <h1>Aguarde</h1>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        var transitionTime = 5000
+        var updateTime = 300000
+
+        jQuery('document').ready(function () {
+
+            jQuery.ajax({
+                url: "read.php",
+                type: "POST",
+                dataType: "HTML",
+                success: function (data) {
+                    jQuery(".owl-carousel").html(data);
+                    console.log(data)
+                    $(".owl-carousel").owlCarousel({
+                        autoplay: 1,
+                        loop: true,
+                        autoplayTimeout: transitionTime,
+                        animateIn: 'fadeIn', // add this
+                        animateOut: 'fadeOut', // and this
+                        items: 1,
+                        margin: 30,
+                        stagePadding: 0,
+                        smartSpeed: 450
+                    });
+                },
+                error: function (jqXHR, data) {
+                    alert('Ajax request Failed.');
+                }
+            });
+        });
+
+        cont = 0
+        setInterval(function () {
+            window.location.href = "index.html"
+
+        }, updateTime)
+    </script>
+</body>
+
+</html>
