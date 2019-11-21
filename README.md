@@ -38,7 +38,7 @@ i am Also using Owl Carousel 2 to create the Slideshow.
 https://owlcarousel2.github.io/OwlCarousel2/
 
 
-#WARNING
+# WARNING
 
 JQUERY is on CDN so you can use only online, for offline version download JQUERY and use local.
 
