@@ -1,6 +1,8 @@
 # Live slideshow
 Create a simple slideshow that reads pictures from a folder using Owl Carousel 2.
 
+⭐ PHP + Jquery ⭐
+
 # TL;DR;
 
 Put your images inside pictures folder it will slideshow every picture 5 seconds each.
