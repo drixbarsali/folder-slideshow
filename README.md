@@ -42,6 +42,8 @@ https://owlcarousel2.github.io/OwlCarousel2/
 
 JQUERY is on CDN so you can use only online, for offline version download JQUERY and use local.
 
+follow on https://www.me-coder.com/index.php/2019/11/21/creating-an-auto-update-slideshow/
+
 
 
 
