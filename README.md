@@ -1,6 +1,8 @@
 # Live slideshow
 Create a simple slideshow that reads pictures from a folder using Owl Carousel 2.
 
+Dirty, simple and plain.
+
 ⭐ PHP + Jquery ⭐
 
 # TL;DR;
@@ -43,6 +45,16 @@ https://owlcarousel2.github.io/OwlCarousel2/
 JQUERY is on CDN so you can use only online, for offline version download JQUERY and use local.
 
 follow on https://www.me-coder.com/index.php/2019/11/21/creating-an-auto-update-slideshow/
+
+
+# Success
+Fell free to contribute
+
+# version 1.1 - TODO
+
+- clean code
+- separate files
+- create methods
 
 
 
