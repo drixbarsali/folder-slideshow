@@ -20,7 +20,7 @@ or 300000 ( 5 minutes ) / 5000 (every 5 seconds ) = 60
 
 # Solution
 
-You can set more pictures, inside the index.html you can set the update time, or the time of transition
+You can set more pictures, inside the index.html by setting the update time, or the time of transition
 
 transitionTime = 5000 ( 5 secondes )
 updateTime = 300000 (5 minutes)
